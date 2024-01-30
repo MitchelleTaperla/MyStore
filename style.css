@@ -1,8 +1,32 @@
 header{ 
 text-align: center;
-border-bottom: inset;
+border-bottom:  3px outset;
 background-color: black;
 margin-left: 4px;
-margin-right: 4;
-border-radius: 18px;
+margin-right: 4px;
+border-radius: 0px;
+}
+header h1{ 
+margin-top: 0;
+}
+body { 
+background-color:rgb(194, 173, 136);
+margin: 0;
+}
+nav a{
+padding: 10px;
+border-radius: 200px;
+box-shadow: 0 3px 20 px;
+}
+nav ul{
+margin-top: 20px;
+text-align: center;
+}
+table{
+margin: 10px;
+}
+table img{
+height: 300px;
+border-radius: 50px;
+box-shadow: 40px;
 }
