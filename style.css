@@ -2,26 +2,21 @@ header{
 border-bottom:  3px inset;
 background-color:black
 margin-left 4px;
+
+
 }
 #about{
-    color: white;
     text-align: center;
 
 
 }
 h3{
     color: white;
-    font-size: larger;
-}
-#bp{
-    height: 150px;
-    padding-left: 200px;
-    text-align: center;
-   
+    height: 22px;
 }
 #backpic{
     height: 600px;
-    opacity: 0.9;
+    opacity: 0.6;
 }
 nav ul a{
     text-decoration: none;
@@ -36,6 +31,7 @@ nav ul a{
 body { 
     background-color: black;
     margin:0px;
+    color: white;
 
 }
 nav a{
@@ -79,6 +75,7 @@ text-align: center;
 }
 #contact{
     color: white;
+    text-align: center;
 }
 figcaption{
     color: white;
@@ -90,4 +87,7 @@ button{
 img{
     height: 300px;
     text-align: center;
+}
+html{
+    scroll-behavior: smooth;
 }
